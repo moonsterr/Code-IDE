@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Mirror App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lite Text Editor</h1>
+    </header>
+    <main>
+      <div class="editor-container">
+        <h1>Javascript:</h1>
+        <div class="editor-js"></div>
+        <h1>Css:</h1>
+        <div class="editor-css"></div>
+        <h1>Html:</h1>
+        <div class="editor-html"></div>
+      </div>
+
+      <div class="output">
+        <div class="btns">
+          <button class="btn">Run</button>
+          <button class="btn btn-save">Save Project</button>
+        </div>
+        <iframe
+          id="output-frame"
+          sandbox="allow-scripts allow-same-origin"
+          frameborder="0"
+          title="Output"
+        ></iframe>
+      </div>
+    </main>
+  </body>
+</html>
